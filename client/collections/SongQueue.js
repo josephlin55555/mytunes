@@ -23,7 +23,6 @@ var SongQueue = Songs.extend({
   },
 
   ended: function() {
-    console.log("ended!")
     this.at(0).ended();
   }
 });
